@@ -2,8 +2,8 @@
 
 var os = require('os');
 
-var osInfo = new Array( 'type: '+os.type();
-						'Node version'+process.version,
+var osInfo = new Array( 'type: '+os.type(),
+						'Node version: '+process.version,
 						'Platform: '+os.platform(),
 						'Hostname: '+os.hostname(),
 						'Total Memory: '+os.totalmem(),
